@@ -1,16 +1,18 @@
+#!/bin/zsh
+
 # Create a new worktree and branch from within current git directory.
 agta() {
   if [[ -z "$1" ]]; then
     echo "Usage: agta [branch name]"
-    exit 1
+    return 1
   fi
 
   local branch="$1"
   local base="$(basename "$PWD")"
-  local path="../${base}--${branch}"
+  local worktree_path="../${base}--${branch}"
 
-  git worktree add -b "$branch" "$path"
-  cd "$path"
+  git worktree add -b "$branch" "$worktree_path"
+  cd "$worktree_path"
 }
 
 # Remove worktree and branch from within active worktree directory.
