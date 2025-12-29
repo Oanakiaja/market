@@ -1,6 +1,6 @@
-# skills
+# market
 
-Recording reusable scripts, CLI, Skill, Prompt.
+Recording reusable scripts, CLI, Skill, Prompt, Plugins.
 
 ```
 brew install gum
