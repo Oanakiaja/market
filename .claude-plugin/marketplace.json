@@ -1,0 +1,13 @@
+{
+  "name": "oanakiaja-marketplace",
+  "owner": {
+    "name": "Oanakiaja"
+  },
+  "plugins": [
+    {
+      "name": "worktree-dev",
+      "source": "./plugins/worktree-dev",
+      "description": "Manage git worktrees for feature development."
+    }
+  ]
+}

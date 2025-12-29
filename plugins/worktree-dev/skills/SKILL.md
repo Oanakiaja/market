@@ -1,6 +1,6 @@
 ---
 name: git-worktree
-description: Git worktree management commands for creating and removing worktrees when developing new features with Claude Code
+description: Git worktree management commands for creating and removing worktrees when developing new features with Claude Code, use `agta feature-name` to create worktree feature branch.
 ---
 # Git Worktree Management
 
