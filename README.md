@@ -11,5 +11,5 @@ claude --plugin-dir xx-plugin
 ```
 
 ```
-cp -n market/commands ~/.claude/commands
+cp -n -r ./commands ~/.claude/commands
 ```
