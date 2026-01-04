@@ -1,19 +1,19 @@
 ---
 allowed-tools: Bash(git add:*), Bash(git status:*), Bash(git diff:*), Bash(git commit:*), Bash(git push:*)
 argument-hint: [commit message]
-description: 提交并推送代码
+description: Commit and push code
 ---
 
-执行以下步骤：
+Execute the following steps:
 
-1. 运行 `git status` 查看当前更改
-2. 运行 `git diff --staged` 和 `git diff` 查看具体改动
-3. 如果有未暂存的更改，运行 `git add .` 添加所有更改
-4. 使用以下 commit message 提交代码：$ARGUMENTS
-   - 如果没有提供 message，根据更改内容自动生成一个简洁的 commit message
-5. 运行 `git push` 推送到远程仓库
+1. Run `git status` to view current changes
+2. Run `git diff --staged` and `git diff` to view specific changes
+3. If there are unstaged changes, run `git add .` to add all changes
+4. Commit with the following commit message: $ARGUMENTS
+   - If no message is provided, auto-generate a concise commit message based on the changes
+5. Run `git push` to push to the remote repository
 
-注意：
+Notes:
 
-- 提交前简要说明本次更改的内容
-- 如果 push 失败（如需要先 pull），告知我具体情况
+- Briefly describe the changes before committing
+- If push fails (e.g., need to pull first), inform me of the specific situation
