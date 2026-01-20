@@ -1,8 +1,0 @@
-{
-  "name": "worktree-dev",
-  "description": "Manage git worktrees for feature development.",
-  "version": "1.0.1",
-  "author": {
-    "name": "Oanakiaja"
-  }
-}
