@@ -1,0 +1,11 @@
+# --- Claude 专属优化 ---
+initial-command = claude --dangerously-skip-permissions
+initial-window = true
+quit-after-last-window-closed = true
+notify-on-command-finish = always
+
+# --- 分屏操作 ---
+keybind = super+alt+left=goto_split:left
+keybind = super+alt+right=goto_split:right
+keybind = super+alt+up=goto_split:up
+keybind = super+alt+down=goto_split:down
